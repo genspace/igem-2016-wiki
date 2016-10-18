@@ -20,7 +20,7 @@ Integrated Human Practices (Ellen)
 
 Improve a previous part or project
 	qPCR 
-		charaterize plasmid http://parts.igem.org/Part:pSB1C3
+		characterize plasmid http://parts.igem.org/Part:pSB1C3
 
 		Tomorrow Day
 			fresh cultures 
