@@ -4,15 +4,16 @@
 - [ ] Low hanging fruit
 	- [x] notebook.html
 	- [x] team.html (Bios)
-	- [ ] attributions.html
+	- [x] attributions.html
+		- [ ] human practice attributions
 	- [ ] collaborations.html
 
 - [ ] home.html
-- [ ] demonstrate.html
+- [ ] measurement.html
 - [ ] description.html
+- [ ] demonstrate.html
 - [ ] design.html
 - [ ] experiments.html
-- [ ] measurement.html
 - [ ] human_practices.html
 - [ ] human_practices_engagement.html
 - [ ] human_practices_gold.html
@@ -20,8 +21,8 @@
 - [ ] integrated_human_practices.html
 - [ ] proof.html
 - [ ] results.html
-- [ ] safety.html
 - [ ] template.html
+- [ ] safety.html
 
 
 
@@ -36,3 +37,4 @@ Students
 	sunil
 HS
 	13 
+

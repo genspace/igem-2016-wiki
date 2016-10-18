@@ -1,98 +1,105 @@
 <!-- http://2016.igem.org/Team:Genspace/Attributions -->
 {{Genspace}}
 <html>
+	<style>
+		.person{
+			width: 100%;
+			margin: 20px 20px;
+			display: block; 
+			height: 30px;
+		}
+		.person div{
+			float: left;
+			display: inline-block; 
+		}
+		.person .name{
+			width: 25%;
+			font-weight: 700;
+			font-size: 14px;
+		}
+		.person .attributions{
+			width: 75%;
+		}
+		.people{
+			padding: 10px 10px 20px;
+			border-bottom:1px solid #333;
+		}
+		.header-callout{
+			padding: 20px 10px 40px;
+			border-bottom:0px solid #333;
+		}
 
+	</style>
+	<div class="column full_size">
 
+		<h1>Attributions </h1>
+		<div class="header-callout">
+			<div class="highlight">
+				<p>Members of the Genspace iGEM team did all the part design, wet lab work, wiki development, and will do the poster and presentation material generation. Mentors offered advice and training in both lab safety and lab techniques and proofed the final submissions (wiki, registry) but did not participate in lab work. DNA that our team modified to make into BioBrick parts and composite parts were synthesized for us by IDT. A member of Genspace (Ali Schachtschneider, a professional designer) who is not on the team helped us design the team logo. </p>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="Members" class="people">
+			<h2>Members </h2>
+			
+		</div>
+		<div class="clear"></div>
 
+		<div id="Mentors" class="people">
+			<h2>Mentors </h2>
+			
+		</div>
+		<div class="clear"></div>
+		<div id="Advisor" class="people">
+			<h2>Advisors </h2>
+			<div class="person">
+				<div class="name">Dr. David Matus</div>
+				<div class="attributions">Gave us access to his lab at Stony Broke University including access and training on a micro-injector</div>
+			</div>
+			<div class="person">
+				<div class="name">Ali Schachtschneider</div>
+				<div class="attributions">Logo &amp; Poster Design Consultant</div>
+			</div>
+			<div class="person">
+				<div class="name">BNBCS</div>
+				<div class="attributions">Thanks to Bedstuy New Beginnings Charter School (BNBCS) for partnering us on the 'Building with biology' event.</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	<script>
+		
+		var students = students.concat(sLeaders).sort(compare)
 
+		var studentsEls = $('#Members')
+		$.each(students, function(i,d) {
+			var personDiv = $('<div class="person"></div>')
+			
+			var name = $('<div class="name">'+d.name+'</div>')
+			personDiv.append(name)
 
+			var attr = $('<div class="attributions">'+d.work+'</div>')
+			personDiv.append(attr)
+			
+			studentsEls.append(personDiv)
+			studentsEls.append($('<div class="clear"></div>'))
+		})
 
+		var mentors = mentors.concat(lMentors).sort(compare)
 
+		var mentorEls = $('#Mentors')
+		$.each(mentors, function(i,d) {
+			var personDiv = $('<div class="person"></div>')
+			
+			var name = $('<div class="name">'+d.name+'</div>')
+			personDiv.append(name)
 
-
-
-
-<div class="column full_size">
-
-
-<p> Each team must clearly attribute work done by the student team members on this page. The team must distinguish work done by the students from work done by others, including the host labs, advisors, instructors, and individuals not on the team roster. </p>
-
-</div>
-
-
-<div class="clear"></div>
-
-
-<div class="column half_size">
-<h5> Why is this page needed? </h5>
-<p>The Attribution requirement helps the judges know what you did yourselves and what you had help with. We don't mind if you get help with difficult or complex techniques, but you must report what work your team did and what work was done by others.</p>
-<p>
-For example, you might choose to work with an animal model during your project. Working with animals requires getting a license and applying far in advance to conduct certain experiments in many countries. This is difficult to achieve during the course of a summer, but much easier if you can work with a postdoc or PI who has the right licenses.</p>
-</div>
-
-
-<div class="column half_size">
-<h5> What should this page have?</h5>
-
-<ul>
-<li>General Support</li>
-<li>Project support and advice</li>
-<li>Fundraising help and advice</li>
-<li>Lab support</li>
-<li>Difficult technique support</li>
-<li>Project advisor support</li>
-<li>Wiki support</li>
-<li>Presentation coaching</li>
-<li>Human Practices support</li>
-<li> Thanks and acknowledgements for all other people involved in helping make a successful iGEM team</li>
-</ul>
-</div>
-
-
-<div class="clear"></div>
-
-<div class="column half_size">
-
-<div class="highlight">
-<h5> Can we base our project on a previous one? </h5>
-<p>Yes! You can have a project based on a previous team, or based on someone else's idea, <b>as long as you state this fact very clearly and give credit for the original project.</b> </p>
-</div>
-</div>
-
-
-<div class="column half_size">
-
-<h5>Inspiration</h5>
-<p>Take a look at what other teams have done:</p>
-<ul>
-<li><a href="http://2011.igem.org/Team:Imperial_College_London/Team">2011 Imperial College London</a> (scroll to the bottom)</li>
-<li><a href="http://2014.igem.org/Team:Exeter/Attributions">2014 Exeter </a></li>
-<li><a href="http://2014.igem.org/Team:Melbourne/Attributions">2014 Melbourne </a></li>
-<li><a href="http://2014.igem.org/Team:Valencia_Biocampus/Attributions">2014 Valencia Biocampus</a></li>
-</ul>
-
-</div>
-
-<div class="clear"></div>
-
-<div class="column half_size">
-
-<h5>Team training and Project start</h5>
-<p>Tell us if your institution teaches an iGEM or synthetic biology class and when you started your project:</p>
-<ul>
-<li>Does your institution teach an iGEM or synthetic biology course?</li>
-<li>When did you start this course?</li>
-<li>Are the syllabus and course materials freely available online?</li>
-<li>When did you start your brainstorming?</li>
-<li>When did you start in the lab?</li>
-<li>When did you start working on  your project?</li>
-
-</ul>
-
-</div>
-
-
-
-
-</div>
+			var attr = $('<div class="attributions">'+d.role+'</div>')
+			personDiv.append(attr)
+			
+			mentorEls.append(personDiv)
+			mentorEls.append($('<div class="clear"></div>'))
+		})
+	</script>
 </html>

@@ -2,144 +2,174 @@
   "name":"Sai Vishudhi Chandrasekhar",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/e/e5/Sai_vishudhi_chandrasekhar.jpg",
+  "work":"Cloning",
   "desc":"Sai Vishudhi Chandrasekhar is a rising sophomore at Hunter College High School. She is very interested in the field of biology, and conducts research at her high school laboratory as well as in the process of iGem. In her spare time, she enjoys playing the clarinet, ice skating, and reading."
 },
 {
   "name":"Jennifer Duong",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/8/8f/Jennifer_Duong.jpg",
+  "work":"Cloning",
   "desc":"Jennifer Duong is a rising junior at Midwood High School. Her enrollment in the Medical Science Program has introduced her to the 2015-2016 Urban Barcode Project. Through this project she realized that she really enjoyed working in a lab and would like to continue to do so in the future. iGem has presented itself as an awesome opportunity to learn more about synthetic biology and a possible career path. When she is not in school or lab, Jennifer enjoys reading and playing video games with her brother."
 },
 {
   "name":"Kathryn Flanagan",
   "role":"Student member",
   "img":"http://2015.igem.org/wiki/images/3/32/Genspace_Kathryn.jpg",
+  "work":"Cloning, E. coli Desiccation",
   "desc":"Kathryn will be going into Freshman year at Mendham High School in New Jersey. Kathryn decided to join iGEM because hearing her Dad talking about synthetic bioengineering fascinated her and she wanted to try it herself. Kathryn plays volleyball and is currently working on her Girl Scout Silver Award. She also enjoys volunteering for her local library and church."
 },
 {
   "name":"Md Hoque",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/a/a5/MD_Hoque.jpeg",
+  "work":"Cloning, E. coli Desiccation",
   "desc":"Md is a rising junior in the Medical Science program at Midwood High school. He is currently enrolled in the science research program. Because of the desire to engage in medicare, he has volunteered in a private clinic and the Kings County Hospital. While he is interested in aiding humans, he is also interested in pursuing biology. He has entered the Urban Barcode Project in which he gained experience in working in a laboratory setting with new individuals."
 },
 {
   "name":"Robert Koniuta",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/3/34/Robert_Koniuta.jpg",
+  "work":"Cloning",
   "desc":"Robert is a junior at Regis High School in Manhattan. From being an active member of his school science clubs to independent research at his local college to this summer’s work at Genspace on the iGem team, he enthusiastically gets involved in many activities to propel himself to a career as a biomedical engineer. In his spare time, he pursues a passion for tennis and golf. He is honored to be able to take part in this year’s project."
 },
 {
   "name":"Jan Kowalski",
   "role":"Student member",
   "img":"http://2015.igem.org/wiki/images/e/e0/Genspace_jan.jpg",
+  "work":"Cloning",
   "desc":"Jan is a 15 year kid with big aspirations and little confusion on how to get there. He hopes to become a geneticist but has many backup jobs in mind, ranging from a saxophone player to professional LEGO builder. He is currently a sophomore at Stuyvesant High School."
 },
 {
   "name":"Alice Mo",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/thumb/f/f1/Alice_Mo.JPG/600px-Alice_Mo.JPG",
+  "work":"Cloning, E. coli Desiccation",
   "desc":"Alice Mo is a rising junior at Midwood High School. She is part of the medical science research program at her school and participated in the Urban Barcode Project before arriving at Genspace. Alice loves to find out how things work and is honored to be in a position where she can explore things first hand in a lab. Other than that, she enjoys playing all different kinds of sports, going on spontaneous adventures and finding new music to listen to."
 },
 {
   "name":"Alejandro Schmieder",
   "role":"Student leader",
   "img":"http://2016.igem.org/wiki/images/7/77/Alejandro_Schmieder.jpg",
+  "work":"Student Leaders,E. coli Desiccation, Notebook",
   "desc":"Alejandro is a rising senior at Bard High School Early College Manhattan. He is an aspiring bioengineer and found out about iGEM through Genspace. During his free time, he plays tennis, catches Pokemon, and studies virology, among other things."
 },
 {
   "name":"Jana Warshawky",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/thumb/f/fa/Jana_Warshawky.jpg/600px-Jana_Warshawky.jpg",
+  "work":"Cloning",
   "desc":""
 },
 {
   "name":"Whitney Wong",
   "role":"Student leader",
   "img":"http://2015.igem.org/wiki/images/2/24/Genspace_whitney.jpg",
+  "work":"Student Leaders, Team Training, E. coli Desiccation, Notebook",
   "desc":"Whitney is a rising senior at Midwood High School. This is her second year at Genspace and on its iGEM team. In her last year of high school, she hopes to major in molecular biology in college. When she isn't helping out at the lab, she's either watching medical dramas or playing the piano."
 },
 {
   "name":"Jessie Zheng",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/9/92/Jessie_Zheng_%281%29.jpg",
+  "work":"Cloning",
   "desc":"Jessie Zheng is a rising junior in the Medical Science Institute at Midwood High School. Her participation in the Science Research Program enabled her to be part of the 2015-2016 Urban Barcode Project (UBP). This motivated her to pursue her interest in the biological field by joining the iGem competition. During her free time, she enjoys researching about new scientific discoveries."
 },
 {
   "name":"Angel Zou",
   "role":"Student leader",
   "img":"http://2015.igem.org/wiki/images/d/de/Genspace_angel.jpg",
+  "work":"Student Leaders, Team Training, E. coli Desiccation, Notebook",
   "desc":" Angel is a rising senior at Midwood High School. She was first introduced to Genspace through the Urban Barcode Competition and later on heard about the iGem competition. Throughout the two years working at Genspace, she grew and expanded her knowledge the field of synthetic and molecular biology. At the same time, this is her second time entering the iGem competition. She is hoping to share her knowledge with the incoming members and work together with them. To Angel, Genspace is like a second home."
 },
 {
   "name":"Jane Kaitlin Young",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/6/6c/Kaitlin_Young.jpg",
+  "work":"Cloning",
   "desc":"Kaitlin is a rising junior at The Dalton School.  Kaitlin enjoys learning about synthetic biology and being able to apply what she has learned through her participation in the iGem competition. This is her second year on the team.  Kaitlin also enjoys playing the viola, swimming and building robots."
 },
 {
   "name":"David Ma",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/thumb/9/92/David_Ma.jpg/600px-David_Ma.jpg",
+  "work":"gRNA Design, Parts Design, Protein Identification",
   "desc":"David graduated in 2012 with an undergraduate degree in mathematics specializing in statistics and computer science. In the daytime, he works for an investment management firm, but at night he occupies himself with myriads of hobbies. Lately, it has been bioengineering."
 },
 {
   "name":"Ayush Deep",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/thumb/1/14/Ayush_Deep.jpg/598px-Ayush_Deep.jpg",
+  "work":"Cloning, Parts Design, Protein Identification",
   "desc":"Ayush Deep is a rising Sophomore attending Albany College of Pharmacy and Health Sciences. When not tinkering with lab equipment or reading papers, he enjoys playing the guitar and programming. He hopes to one day curl up into a ball and survive through extreme environmental stress, much like a tardigrade. "
 },
 {
   "name":"Sunil Deochand",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/6/6d/Sunil_Deochand.png",
+  "work":"Microinjection, E. coli Desiccation, Parts Design, Protein Identification",
   "desc":"Sunil is a senior mathematics major at Stony Brook University currently conducting bioinformatics research involving the genomes of yeast. He aspires to become a computational biologist in order to approach the interesting questions of biology from a mathematical angle. In his spare time he enjoys honing his programming skills as well as voraciously reading abstruse mathematical texts."
 },
 {
-  "name":"Blacki Li Rudi Migliozzi",
+  "name":"Blacki Migliozzi",
   "role":"Student member",
   "img":"http://2015.igem.org/wiki/images/4/4d/Genspace_blacki.jpg",
+  "work":"qPCR, gRNA Design, Parts Design, Protein Identification",
   "desc":"Blacki is a data journalist at Bloomberg News, where he develops interactive infographics for data-driven stories. He recently won a Malofiej special prize for reporting done over the past year focused on climate science. A datavis practitioner during the day, he is biology hobbyist during the night. For the past two years he has competed alongside Genspace at (iGEM) the International Genetically Engineered Machines competition."
 },
 {
   "name":"Allen Qu",
   "role":"Student member",
   "img":"http://2016.igem.org/wiki/images/thumb/8/8c/Allen_Qu.jpg/600px-Allen_Qu.jpg",
+  "work":"Cloning",
   "desc":"Allen is a rising sophomore at Boston University studying Biomedical Engineering. Much of Allen’s interest in bioengineering stems from watching the sci-fi Resident Evil film series. In the series a bioengineering pharmaceutical company, Umbrella, is responsible for starting a zombie apocalypse through releasing a virus. Although a zombie apocalypse doesn’t seem plausible in the near future, Allen hopes to apply bioengineering to tackling environmental or medicinal challenges in research or industry. Outside of the lab, Allen enjoys the little things in life, such as sleeping, running, and biking."
 },
 {
   "name":"David Sanderson",
   "role":"Student leader",
   "img":"http://2016.igem.org/wiki/images/8/88/Dave_sanderson.JPG",
+  "work":"Student Leaders, Cloning, Parts Design, Protein Identification",
   "desc":"David is a Genspace member. When not at the Lab he does work in areas such as Broadway Theatre, corporate art and events as well as product design."
 },
 {
   "name":"Kyle Chen",
   "role":"Student member",
   "img":"http://2015.igem.org/wiki/images/5/57/Genspace_kyle.jpg",
+  "work":"Cloning",
   "desc":"Kyle is a mildly disgruntled junior at Stuyvesant High School who really isn’t that disgruntled. He has a mild obsession with teriyaki chicken and strong tea, and a strong interest in medicine. He’ll listen to anything you have to say, unless it’s during his homework times."
 },
 {
   "name":"Julie Wolf",
   "role":"Mentor",
   "img":"http://2015.igem.org/wiki/images/1/16/Genspace_julie.png",
+  "work":"",
   "desc":"Julie has been involved with Genspace since 2012. Her doctorate and postdoctorate work is in medical mycology, but she is a fan of microbiology and molecular biology of all sorts. She enjoys coffee, podcasts, data, citizen science, and infographics."
 },
 {
   "name":"Will Shindel",
   "role":"Mentor",
   "img":"http://2015.igem.org/wiki/images/e/eb/Genspace_will.jpg",
+  "work":"",
   "desc":"Will is the Lab manager at Genspace. Having spent a few years in pharmaceuticals, Will now spends his time mentoring members and keeping the lab from burning down. When not practicing synthetic biology, Will has a tendency to build hydroponic systems and brew beer."
 },
 {
   "name":"Mike Flanagan",
   "role":"Mentor",
   "img":"http://2015.igem.org/wiki/images/3/3e/Genspace_Mike.jpg",
+  "work":"",
+  "desc":"Mike has been a member of Genspace since 2014 and is excited to be mentoring his first iGEM. Mike has a PhD in Electrical Engineering from Caltech and has spent more than a few years working at NASA's Jet Propulsion Laboratory, Bell Labs and entrepreneurial companies (including Arieso where he was CTO). When he is not working in Brooklyn, Mike is either at home in Chester NJ or trying to return to London."
+},
+{
+  "name":"Mike Flanagan",
+  "role":"Mentor",
+  "img":"http://2015.igem.org/wiki/images/3/3e/Genspace_Mike.jpg",
+  "work":"",
   "desc":"Mike has been a member of Genspace since 2014 and is excited to be mentoring his first iGEM. Mike has a PhD in Electrical Engineering from Caltech and has spent more than a few years working at NASA's Jet Propulsion Laboratory, Bell Labs and entrepreneurial companies (including Arieso where he was CTO). When he is not working in Brooklyn, Mike is either at home in Chester NJ or trying to return to London."
 },
 {
   "name":"Ellen Jorgensen",
   "role":"Lead Mentor",
   "img":"http://2015.igem.org/wiki/images/0/07/Genspace_ellen.jpg",
+  "work":"",
   "desc":"Dr. Ellen Jorgensen is co-founder and Director of Genspace, and holds adjunct positions at New York Medical College, Cooper Union, and the School of Visual Arts. She is passionate about increasing science literacy in both student member and genspace member populations, particularly in the areas of molecular and synthetic biology. Her efforts to develop Genspace into a haven for entrepreneurship, innovation and citizen science have been chronicled by Nature Medicine, Science, Discover Magazine, BBC News, Dan Rather Reports, PBS News Hour, the New York Times and her 2012 TEDGlobal talk (Biohacking- you can do it, too). She is fascinated by CRISPR- both its ability to fast-track research and the ethical issues it raises.This is the sixth iGEM team she has led, and that just goes to show that she’s got more tenacity than brains."
-}
-]
+}]
