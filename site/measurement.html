@@ -1,31 +1,102 @@
 <!-- http://2016.igem.org/Team:Genspace/Measurement -->
 {{Genspace}}
 <html>
+	<style>
+		.content{
+			padding: 40px 20px;
+			margin: 0px 0px 40px;
+			border-bottom:1px solid #333;
+		}
+
+		.sub-content{
+			margin: 20px 10px;
+		}
+	</style>
+	<div class="column full_size">
+		<div class="content">
+			<h2><span class="c9">Background</span></h2>
+			<p class="c2"><span>The plasmid pSB1C3 is a favored vector for iGEM projects, its high copy number making it a workhorse for gene expression.  However, different sources give different estimates of its copy number and no iGEM teams have independently verified these claims.  Genspace developed a qPCR assay to verify the plasmid copy number (PCN) of pSB1C3 in </span><span class="c3">E. coli</span><span> growing at 37°C.</span></p>
+			<p class="c0"><span></span></p>
+			<p class="c2"><span>The pSB1XX plasmid series uses the pMB1 origin or replication.  Replication is repressed by the </span><span class="c3">rop</span><span> protein and in its absence copy number can exceed 100 copies per cell.  Plasmids containing the </span><span class="c3">rop</span><span> gene, such as pBR322, have a much lower copy number, typically closer to 18 copies per cell (</span><span class="c6"><a class="c5" href="">Lee et al 2005</a></span><span>).  Additionally, incubation temperature has been shown to alter the copy number of plasmids using this origin of replication.</span></p>
+			<p class="c0"><span></span></p>
+			<p class="c2"><span>To minimize variability caused by loss of nucleic acid during purification, a lysis protocol was researched that would allow cell lysate to be used directly as the template for qPCR (</span><span class="c6"><a class="c5" href="">Shatzkes et al 2014</a></span><span>).  A TaqMan® hydrolysis probe was designed to target the LacZ gene and LacZ (BBa_K909006) was cloned into pSB1C3.  Because a copy of LacZ exists on the </span><span class="c3">E. coli</span><span> chromosome, lysate generated from cells without the plasmid was used as a standard, while lysate from cells with the plasmid was expected to have PCN+1 copies of the target sequence.</span></p>
+			<p class="c0"><span></span></p>
+			<p class="c2"><span>In addition to measuring plasmid copy number, it was decided that steady-state mRNA count would also be a valuable measurement to make.  While we did not have enough time to make any mRNA measurements, the assay was designed with the intention of being usable on a DNA or RNA template.  To support this flexibility, the Verso One-Step qRT-PCR kit was chosen for our assay.  The Verso kit comes with an RT enhancer that degrades dsDNA during the reverse transcription step, allowing users to skip DNase treatment of samples.  Used as directed, the kit works for qRT-PCR, while withholding the RT enhancer and skipping the RT stage allows the kit to function as a qPCR assay.  Because samples do not require DNase treatment, both qPCR and qRT-PCR can be run using the same sample.</span></p>
+			<p class="c0"><span></span></p>
+			<p class="c2"><span>Video: How TaqMan Works</span></p>
+			<p class="c2"><span class="c6"><a class="c5" href="https://www.youtube.com/watch?v=fkUDu042xic">https://www.youtube.com/watch?v=fkUDu042xic</a></span></p>
+			<p class="c0"><span></span></p>
+		</div>
+		<div class="content">
+			<h2><span class="c9">Sample Preparation Procedure</span></h2>
+			<div class="sub-content">
+				<p class="c2"><span>Bacterial cultures for testing were grown overnight to saturation, and the OD</span><span class="c12">600</span><span> was measured using the following formula:</span></p>
+				<p class="c0"><span></span></p>
+				<p class="c2"><span>OD</span><span class="c12">600</span><span> of 1.0 = 8x10</span><span class="c11">8</span><span> cells/mL</span></p>
+				<p class="c0"><span></span></p>
+				<p class="c2"><span>When necessary, 10-fold dilutions were prepared to ensure optical density remained within the linear range of our spectrophotometer.</span></p>
+				<p class="c0"><span></span></p>
+				<p class="c2"><span>200,000,000 cells were taken and pelleted, then resuspended in 1mL of CL Buffer for a final concentration of 1 million cells per 5 microliters.  Cells were lysed at room temperature for at least 5 minutes, then frozen at -20°C.  10-fold dilutions of lysate were made using CL buffer to reduce DNA concentration to a manageable amount for qPCR.  For the standard, 20,000,000,000 cells were pelleted and lysed, and 10-fold serial dilutions in CL buffer were prepared.</span></p>
+				<p class="c0"><span></span></p>
+			</div>
+		</div>
+		<div class="content">
+			<h2><span class="c9">qPCR Procedure</span></h2>
+
+			<div class="sub-content">
+				<p class="c2"><span>Reactions were set up using the chemistry described in the kit’s manual.  A master mix was created and 20uL were distributed to each reaction tube.  5uL of cell lysate (containing 10</span><span class="c11">5</span><span> cells for the test articles) were added to each reaction.  A 3-point standard was used consisting of 10</span><span class="c11">5</span><span>, 10</span><span class="c11">6</span><span>, and 10</span><span class="c11">7</span><span> lysed </span><span class="c3">E. coli</span><span> cells without the plasmid.  All samples were run in triplicate.  The reverse transcription step was skipped and reverse transcriptase enzyme was inactivated during the 95°C hot start and qPCR continued normally using DNA as a template.</span></p>
+				<p class="c0"><span></span></p>
+			</div>
 
 
 
+			<div class="sub-content">
+				<h5><span class="c1 c9">Cell Culturing</span></h5>
+				<p class="c2"><span class="c1">To sample cells across their growth curve, I start a fresh culture in the morning by diluting a saturated starter culture (prepared the day before and grown overnight) 100-fold.  This is pretty much the standard way to start a fresh culture when working with</span><span class="c1 c3">E. coli</span><span class="c1">.</span></p>
+				<p class="c0"><span class="c1"></span></p>
+				<p class="c2"><span class="c1">Every hour, I measure the OD600 of the cells.  If your cell density is in the linear range for the spectrophotometer, your cell density is the reading multiplied by 8E8.</span></p>
+				<p class="c0"><span class="c1"></span></p>
+				<p class="c2"><span class="c1">If the OD600 is greater than 1, I measure a 10-fold dilution of the culture, to keep the cell density in the cuvette within the machine&#39;s linear range, and adjust my math accordingly.</span></p>
+				<p class="c0"><span class="c1"></span></p>
+				<p class="c2"><span class="c1">By plotting the measurements, you can pretty easily identify the cells&#39; three growth phases.  We also happen to know from experience that in our lab, with our cultures, </span><span class="c1 c3">E. coli</span><span class="c1"> tends to hit log phase by hour 2-3 in culture.</span></p>
+				<p class="c0"><span class="c1"></span></p>
+			</div>
 
 
 
+			<div class="sub-content">
+				<h5><span class="c1 c9">Cell Sampling</span></h5>
+				<ol class="c10 lst-kix_1s717adflov7-0 start" start="1"><li class="c2 c4"><span class="c1">Every hour, immediately after measuring the cell density, pull 2E8 cells from the culture.</span></li><li class="c0 c4"><span class="c1"></span></li><li class="c2 c4"><span class="c1">Centrifuge at 16,000g for 30 seconds.  Decant supernatant.  Use a kimwipe to soak up the last drop that won&#39;t come out.  You can also pipette it out.</span></li><li class="c2 c4"><span class="c1">Resuspend the pellet in 1mL of CL buffer.  2E8 cells/mL will give you 1 million cells per 5uL, which is the volume we put into the qPCR reaction.</span></li><li class="c2 c4"><span class="c1">Incubate at room temperature for 5 minutes, vortexing vigorously to completely lyse the cells.</span></li><li class="c2 c4"><span class="c1">Freeze lysate at -20C until ready for use.  If you plan to do qPCR immediately, you should still freeze the lysate, as freezing helps lyse the cells.</span></li></ol><p class="c0"><span class="c1"></span></p>
+			</div>
+
+
+			<div class="sub-content">
+				<h5><span class="c1 c9">qPCR Procedure</span></h5>
+				<p class="c2"><span class="c1">While your reagents are thawing, program the Open qPCR so it is ready to go as soon as everything is mixed.  PCR quality is hindered by extended time at room temperature.</span></p>
+				<p class="c0"><span class="c1"></span></p>
+				<p class="c2"><span class="c1">Setting up reactions on ice won&#39;t hurt, but it shouldn&#39;t be necessary as the polymerase is inactive until the 15-minute 95C activation step.</span></p>
+				<p class="c0"><span class="c1"></span></p>
+				<p class="c2"><span class="c1">Each reaction has the following chemistry:</span></p>
+				<p class="c2 c7"><span class="c1">12.5uL qPCR Mix (the blue stuff)</span></p>
+				<p class="c2 c7"><span class="c1">5.45uL Molecular Biology Grade Water</span></p>
+				<p class="c2 c7"><span class="c1">5.0uL Cell lysate</span></p>
+				<p class="c2 c7"><span class="c1">1.8uL TaqMan Assay (the purple primer/probe mix)</span></p>
+				<p class="c2 c7"><span class="c1">0.25uL Enzyme Mix</span></p>
+				<ol class="c10 lst-kix_9c2vkm96i5w4-0 start" start="1"><li class="c2 c4"><span class="c1">To minimize reaction variability, make a master mix first by multiplying the above volumes (withholding lysate) by the number of reactions you plan to run, with an excess of 2-3 reactions&#39; worth.</span></li><li class="c0 c4"><span class="c1"></span></li><li class="c2 c4"><span class="c1">Distribute 20uL of master mix into each reaction tube.  Because the edge effect impairs data quality in the outer tubes, avoid using them for anything other than a positive or negative control</span></li></ol><ul class="c10 lst-kix_9c2vkm96i5w4-1 start"><li class="c2 c13"><span class="c1">Positive/negative controls can go on the edges because we are just checking for the presence or absence of amplification, so data quality is not as important.</span></li></ul><ol class="c10 lst-kix_9c2vkm96i5w4-0" start="4"><li class="c2 c4"><span class="c1">Distribute 5uL of the appropriate lysate (standard or test) to each reaction tube.  For the negative control, use 5uL of water.</span></li></ol><p class="c0"><span class="c1"></span></p>
+			</div>
 
 
 
+			<div class="sub-content">
+				<h5><span class="c1 c9">qPCR Cycles</span></h5>
+				<p class="c2"><span class="c1">Run qPCR with the following cycles:</span></p>
+				<p class="c2 c7"><span class="c1">95C for 15 minutes</span></p>
+				<p class="c2 c7"><span class="c1">40 cycles of:</span></p>
+				<p class="c2 c8"><span class="c1">95C for 15 seconds</span></p>
+				<p class="c2 c8"><span class="c1">60C for 1 minute</span></p>
+				<p class="c0"><span></span></p>
+			</div>
+		</div>
 
-<div class="column full_size">
-
-
-<p>There are a lot of exciting Parts in the Registry, but many Parts have still not been characterized. Synthetic Biology needs great measurement approaches for characterizing new parts, and efficient new methods for characterizing many parts at once. If you've done something exciting in the area of Measurement, describe it here!</p>
-
-
-<h5>Inspiration</h5>
-<p>You can look at what other teams did to get some inspiration! <br />
-Here are a few examples:</p>
-<ul>
-<li><a href="http://2014.igem.org/Team:Aachen">2014 Aachen  </a></li>
-<li><a href="http://2014.igem.org/Team:Valencia_Biocampus">2014 Valencia Biocampus</a></li>
-<li><a href="http://2015.igem.org/Team:William_and_Mary">2015 William and Mary</a></li>
-</ul>
-
-</div>
-
+	</div>
 </html>
